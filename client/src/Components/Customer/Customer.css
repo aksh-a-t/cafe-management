@@ -1,0 +1,15 @@
+.DrawerAccordianHeader{
+    position: sticky !important;
+    top: 0px;
+    background-color: #32cd32 !important;
+    z-index: 1;
+}
+.DrawerAccordian{
+    max-height:33% !important;
+    overflow:auto !important
+}
+.readLink{
+    text-decoration: none;
+    color:limegreen;
+    font-size: smaller;
+}

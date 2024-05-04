@@ -1,0 +1,111 @@
+
+body{
+  background:#f7f7f7;
+}
+.constantMargin{
+  padding-left: 15vw;
+  padding-right:10vw;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.registerform{
+  padding:50px;
+  display:flex;
+  flex-direction:column;
+  gap:30px;
+}
+.Registercontainer{
+  display:grid;
+  grid-template-columns: 2fr 3fr;
+}
+.logincontainer{
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+.loginform{
+  padding:50px;
+  display:flex;
+  flex-direction:column;
+  gap:30px;
+  margin-top: 40px;
+}
+.card{
+  margin:10px 
+}
+#homepage-cont {
+  background-image: url("https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?w=2000");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* margin-top: -75px; */
+  color: white;
+}
+.homepage-back-overlay {
+  position: absolute;
+  background-color: #383636b3;
+  width: -webkit-fill-available;
+  height: inherit;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#main-Heading{
+  font-size:70px;
+  text-align: center;
+}
+#subHeading{
+  margin-top: 5px;
+  font-size:x-large;
+  text-align: center;
+}
+@media (max-width:855px) {
+  #main-Heading{
+    font-size:50px;
+  }
+  #subHeading{
+    font-size: large;
+  }
+}
+@media (max-width:650px) {
+  #main-Heading{
+    font-size:xx-large;
+  }
+}
+@media (max-width:350px) {
+  #main-Heading{
+    font-size:x-large;
+  }
+  #subHeading{
+    font-size:medium;
+  }
+}
+
+.backLime{
+  background:limegreen !important;
+}
+.button{
+  background-color: limegreen !important;
+  color:white !important;
+}
+.navLink{
+  color:white;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: limegreen;
+  border-radius: 10px;
+}

@@ -1,0 +1,20 @@
+.StickyListItem{
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+    background-color: limegreen;
+}
+.UserListBorder{
+    border: 1px solid limegreen ;
+    height:400px;
+    overflow:auto;
+    padding-top: 0 !important;
+}
+
+.TableBoxes{
+    border:1px solid black;
+    height:30px;
+    width:30px;
+    border-radius:5px;
+    background-color: white;
+}
